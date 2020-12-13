@@ -30,7 +30,7 @@ namespace ApiTaxaJuros
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiCalculaJuros", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiTaxaJuros", Version = "v1" });
             });
         }
 
