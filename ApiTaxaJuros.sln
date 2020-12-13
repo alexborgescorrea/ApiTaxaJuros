@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTaxaJuros", "ApiTaxaJuro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTaxaJuros.Test", "ApiTaxaJuros.Test\ApiTaxaJuros.Test.csproj", "{949E18BF-6F00-4135-B03A-10633C19A341}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTaxaJuros.TesteIntegracao", "ApiTaxaJuros.TesteIntegracao\ApiTaxaJuros.TesteIntegracao.csproj", "{339DD836-D98F-4275-80A0-27BF4EC9878A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{949E18BF-6F00-4135-B03A-10633C19A341}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{949E18BF-6F00-4135-B03A-10633C19A341}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{949E18BF-6F00-4135-B03A-10633C19A341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339DD836-D98F-4275-80A0-27BF4EC9878A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339DD836-D98F-4275-80A0-27BF4EC9878A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339DD836-D98F-4275-80A0-27BF4EC9878A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339DD836-D98F-4275-80A0-27BF4EC9878A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,7 +11,7 @@ namespace ApiTaxaJuros.Test.Controllers
     public class TaxaJurosControllerTest
     {
         [Fact]
-        public void TaxaPadrao_DeveRetornar00_1()
+        public void TaxaPadrao_DeveRetornar0_01()
         {
             var taxaPadrao = 0.01m;
             var mockTaxaJurosAplic = new Mock<ITaxaJurosAplic>();

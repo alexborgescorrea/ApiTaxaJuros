@@ -9,7 +9,7 @@ namespace ApiTaxaJuros.Test.Aplicacao.TaxaJuros
     public class TaxaJurosAplicTest
     {
         [Fact]
-        public void TaxaPadrao_DeveRetornar00_1()
+        public void TaxaPadrao_DeveRetornar0_01()
         {
             var aplic = new TaxaJurosAplic();                        
 
