@@ -15,7 +15,7 @@ namespace ApiTaxaJuros.Test.Aplicacao.TaxaJuros
 
             var taxaPadrao = aplic.TaxaPadrao();
 
-            Assert.Equal(00.1m, taxaPadrao);
+            Assert.Equal(0.01m, taxaPadrao);
         }
     }
 }

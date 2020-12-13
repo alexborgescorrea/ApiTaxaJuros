@@ -9,7 +9,7 @@ namespace ApiTaxaJuros.Aplicacao.TaxaJuros
     {
         public decimal TaxaPadrao()
         {
-            return 00.1m;
+            return 0.01m;
         }
     }
 }
