@@ -1,3 +1,4 @@
+using ApiTaxaJuros.Aplicacao.TaxaJuros;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -24,7 +25,13 @@ namespace ApiTaxaJuros
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            ConfigInjecao(services);
             services.AddControllers();
+        }
+
+        public void ConfigInjecao(IServiceCollection services)
+        {
+            services.AddScoped<ITaxaJurosAplic, TaxaJurosAplic>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
